@@ -8,4 +8,6 @@ def fizzbuzz(input)
     answer = "#{answer}Buzz"
   else
     answer = nil
+  end
+  return answer
 end
