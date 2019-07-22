@@ -4,7 +4,7 @@ def fizzbuzz(input)
   answer = ""
   if (input.round / 3 == input / 3)
     answer = "Fizz"
-  else if (input.round / 5 == input / 5)
+  elsif (input.round / 5 == input / 5)
     answer = "#{answer}Buzz"
   else
     answer = nil
