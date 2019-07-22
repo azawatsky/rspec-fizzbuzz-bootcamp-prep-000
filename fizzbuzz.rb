@@ -6,6 +6,6 @@ def fizzbuzz(input)
   elsif ((input.to_f / 5).round == input.to_f / 5)
     return "Buzz"
   else
-    answer = nil
+    return nil
   end
 end
